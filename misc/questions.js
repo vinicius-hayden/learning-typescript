@@ -9,7 +9,7 @@ function main() {
         console.log('Please type again \n');
         main();
     }
-    var howManyGrades = Number((0, readline_sync_1.question)('How many grades do you want to show?: '));
+    var howManyGrades = Number((0, readline_sync_1.question)('How many grades do you want to exhibit?: '));
     var arrayGrades = [];
     while (howManyGrades > 0) {
         var grade = Number((0, readline_sync_1.question)('Type your grade: '));

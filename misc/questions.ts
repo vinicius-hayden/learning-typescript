@@ -1,4 +1,4 @@
-import { question,  } from "readline-sync";
+import { question } from "readline-sync";
 
 function main():void{
     const name: string = question('What is your first name?: ');
@@ -10,7 +10,7 @@ function main():void{
         main();
     }
 
-    let howManyGrades: number = Number(question('How many grades do you want to show?: '));
+    let howManyGrades: number = Number(question('How many grades do you want to exhibit?: '));
     var arrayGrades:number[] = [];
     while(howManyGrades > 0){
         let grade: number = Number(question('Type your grade: '));
